@@ -45,5 +45,8 @@ pipeline {
                 }
             }
         }
+        stage('Branche') {
+            echo nom-de-la-branche
+        }
     }
 }
