@@ -44,6 +44,9 @@ pipeline {
                     archiveArtifacts "${env.BUILD_ID}/sources/dist/prog"
                 }
             }
+            }
+        stage('Branche') {
+            echo nom-de-la-branche
         }
     }
 }
