@@ -46,7 +46,10 @@ pipeline {
             }
             }
         stage('Branche') {
-            echo nom-de-la-branche
+            agent any
+            steps {
+            echo 'nom-de-la-branche'
+            }
         }
     }
 }
